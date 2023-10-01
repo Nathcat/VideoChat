@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.HashMap;
 
 public class Main {
-    public static final String SERVER_HOSTNAME = "localhost";
+    public static final String SERVER_HOSTNAME = "13.40.66.177";
     public static final int SERVER_PORT = 1234;
     public HashMap<String, Connection> connections = new HashMap<>();
 

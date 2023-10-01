@@ -7,31 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf094070-d18a-4723-a081-d8b51414091e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VideoChatClient_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VideoChatServer_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatClient/VideoChatClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatClient/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatSender/src/com/Nathcat/VideoChatSender/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatServer/VideoChatServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatServer/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatServer/src/com/Nathcat/VideoChatServer/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoChatServer/src/com/Nathcat/VideoChatServer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VideoChatSender_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/VideoChatSender_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VideoChat_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoChatSender/VideoChatSender.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatSender/VideoChatSender.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoChatSender/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatSender/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoChatSender/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/CameraStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/CameraStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/NetworkStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/NetworkStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/VideoDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/VideoDisplay.java" afterDir="false" />
-    </list>
+    <list default="true" id="cf094070-d18a-4723-a081-d8b51414091e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
