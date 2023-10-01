@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VideoChatServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VideoChatServer_jar</output-path>
+    <root id="archive" name="VideoChatServer.jar">
+      <element id="module-output" name="VideoChatServer" />
+    </root>
+  </artifact>
+</component>

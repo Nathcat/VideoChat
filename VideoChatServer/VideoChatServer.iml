@@ -7,8 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="opencv-481" level="project" />
-    <orderEntry type="module" module-name="VideoChatClient" />
-    <orderEntry type="module" module-name="VideoChatServer" />
   </component>
 </module>

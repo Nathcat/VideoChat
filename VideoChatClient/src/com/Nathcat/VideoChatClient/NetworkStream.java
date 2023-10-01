@@ -1,57 +1,20 @@
 package com.Nathcat.VideoChatClient;
 
-import java.awt.image.BufferedImage;
-import java.io.*;
-
-import org.opencv.core.Mat;
-import org.opencv.core.MatOfByte;
-import org.opencv.imgcodecs.Imgcodecs;
-import org.opencv.videoio.VideoCapture;
+import com.Nathcat.VideoChatServer.Connection;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.image.BufferedImage;
+import java.io.*;
 
 /**
- * Acts a stream to receive images from the device's camera on demand
+ * Get image data from an object stream obtained from a socket connection
  */
-public class CameraStream extends InputStream implements ObjectInput {
-    private VideoCapture capture;
+public class NetworkStream extends InputStream implements ObjectInput {
+    private ObjectInputStream ois;
 
-    public CameraStream() {
-        capture = new VideoCapture(0);
-    }
-
-    /**
-     * Read a frame from the device's camera
-     * @return The frame as java.awt.Image
-     */
-    @Override
-    public Object readObject() {
-        Mat frame = new Mat();
-        capture.read(frame);
-        MatOfByte matOfByte = new MatOfByte();
-        Imgcodecs.imencode(".jpg", frame, matOfByte);
-        byte[] byteArray = matOfByte.toArray();
-        InputStream in = new ByteArrayInputStream(byteArray);
-        BufferedImage bufImage;
-        try {
-            bufImage = ImageIO.read(in);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-        return new ImageIcon(bufImage).getImage();
-    }
-
-    @Override
-    public void close() throws IOException {
-        super.close();
-        capture.release();
-    }
-
-    @Override
-    public int read() throws IOException {
-        return 0;
+    public NetworkStream(ObjectInputStream ois) {
+        this.ois = ois;
     }
 
     @Override
@@ -127,5 +90,18 @@ public class CameraStream extends InputStream implements ObjectInput {
     @Override
     public String readUTF() throws IOException {
         return null;
+    }
+
+    @Override
+    public Object readObject() throws ClassNotFoundException, IOException {
+        Connection.Frame frame = (Connection.Frame) ois.readObject();
+        BufferedImage img = ImageIO.read(new ByteArrayInputStream(frame.contents));
+
+        return new ImageIcon(img).getImage();
+    }
+
+    @Override
+    public int read() throws IOException {
+        return 0;
     }
 }

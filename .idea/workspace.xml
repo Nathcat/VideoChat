@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="VideoChatClient:jar" />
+      <artifact name="VideoChatSender:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf094070-d18a-4723-a081-d8b51414091e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VideoChatClient_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VideoChatServer_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatClient/VideoChatClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatClient/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatSender/src/com/Nathcat/VideoChatSender/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatServer/VideoChatServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatServer/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatServer/src/com/Nathcat/VideoChatServer/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoChatServer/src/com/Nathcat/VideoChatServer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VideoChatSender_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/VideoChatSender_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VideoChat_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoChatSender/VideoChatSender.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatSender/VideoChatSender.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoChatSender/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatSender/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoChatSender/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/CameraStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/CameraStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/NetworkStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/NetworkStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Nathcat/VideoChatClient/VideoDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoChatClient/src/com/Nathcat/VideoChatClient/VideoDisplay.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2W9pNHUuT8kmHlYxhpwYtd0aHoe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/super/Documents/GitHub/VideoChat/src/com/Nathcat/VideoChatSender",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\super\Documents\GitHub\VideoChat\src\com\Nathcat\VideoChatSender" />
+      <recent name="C:\Users\super\Documents\GitHub\VideoChat\src\com\Nathcat\VideoChatClient" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\super\Documents\GitHub\VideoChat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.VideoChatSender">
+    <configuration name="VideoChatClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Nathcat.VideoChatClient.Client" />
+      <module name="VideoChatClient" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\super\Documents\C++\Libs\opencv\build\java\x64&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoChatSender" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Nathcat.VideoChatSender.Test" />
+      <module name="VideoChatSender" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\super\Documents\C++\Libs\opencv\build\java\x64&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoChatServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Nathcat.VideoChatServer.Main" />
+      <module name="VideoChatServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.VideoChatClient" />
+      <item itemvalue="Application.VideoChatSender" />
+      <item itemvalue="Application.VideoChatServer" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf094070-d18a-4723-a081-d8b51414091e" name="Changes" comment="" />
+      <created>1696154608916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696154608916</updated>
+    </task>
+    <servers />
+  </component>
+</project>

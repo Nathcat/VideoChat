@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VideoChat.iml" filepath="$PROJECT_DIR$/VideoChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoChatClient/VideoChatClient.iml" filepath="$PROJECT_DIR$/VideoChatClient/VideoChatClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/VideoChatSender/VideoChatSender.iml" filepath="$PROJECT_DIR$/VideoChatSender/VideoChatSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoChatServer/VideoChatServer.iml" filepath="$PROJECT_DIR$/VideoChatServer/VideoChatServer.iml" />
     </modules>
   </component>
 </project>

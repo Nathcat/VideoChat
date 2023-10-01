@@ -1,8 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="VideoChatSender:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/VideoChatSender_jar</output-path>
-    <root id="archive" name="VideoChatSender.jar">
-      <element id="module-output" name="VideoChatSender" />
+  <artifact type="jar" name="VideoChatClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VideoChatClient_jar</output-path>
+    <root id="archive" name="VideoChatClient.jar">
       <element id="module-output" name="VideoChatClient" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../C++/Libs/opencv/build/java/opencv-481.jar" path-in-jar="/" />
     </root>

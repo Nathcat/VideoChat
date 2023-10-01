@@ -1,18 +1,59 @@
 package com.Nathcat.VideoChatClient;
 
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfByte;
+import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.videoio.VideoCapture;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInput;
 
 /**
- * Get image data from an object stream obtained from a socket connection
+ * Acts a stream to receive images from the device's camera on demand
  */
-public class NetworkStream extends InputStream implements ObjectInput {
-    private ObjectInputStream ois;
+public class CameraStream extends InputStream implements ObjectInput {
+    private VideoCapture capture;
 
-    public NetworkStream(ObjectInputStream ois) {
-        this.ois = ois;
+    public CameraStream() {
+        capture = new VideoCapture(0);
+    }
+
+    /**
+     * Read a frame from the device's camera
+     * @return The frame as java.awt.Image
+     */
+    @Override
+    public Object readObject() {
+        Mat frame = new Mat();
+        capture.read(frame);
+        MatOfByte matOfByte = new MatOfByte();
+        Imgcodecs.imencode(".jpg", frame, matOfByte);
+        byte[] byteArray = matOfByte.toArray();
+        InputStream in = new ByteArrayInputStream(byteArray);
+        BufferedImage bufImage;
+        try {
+            bufImage = ImageIO.read(in);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        return new ImageIcon(bufImage).getImage();
+    }
+
+    @Override
+    public void close() throws IOException {
+        super.close();
+        capture.release();
+    }
+
+    @Override
+    public int read() throws IOException {
+        return 0;
     }
 
     @Override
@@ -88,18 +129,5 @@ public class NetworkStream extends InputStream implements ObjectInput {
     @Override
     public String readUTF() throws IOException {
         return null;
-    }
-
-    @Override
-    public Object readObject() throws ClassNotFoundException, IOException {
-        byte[] b = (byte[]) ois.readObject();
-        BufferedImage img = ImageIO.read(new ByteArrayInputStream(b));
-
-        return new ImageIcon(img).getImage();
-    }
-
-    @Override
-    public int read() throws IOException {
-        return 0;
     }
 }
