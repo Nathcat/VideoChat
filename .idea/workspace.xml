@@ -4,10 +4,13 @@
     <artifacts-to-build>
       <artifact name="VideoChatClient:jar" />
       <artifact name="VideoChatSender:jar" />
+      <artifact name="VideoChatServer:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf094070-d18a-4723-a081-d8b51414091e" name="Changes" comment="" />
+    <list default="true" id="cf094070-d18a-4723-a081-d8b51414091e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +55,7 @@
       <recent name="C:\Users\super\Documents\GitHub\VideoChat" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VideoChatSender">
+  <component name="RunManager" selected="Application.VideoChatClient">
     <configuration name="VideoChatClient" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.Nathcat.VideoChatClient.Client" />
       <module name="VideoChatClient" />

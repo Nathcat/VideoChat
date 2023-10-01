@@ -4,6 +4,7 @@
     <root id="archive" name="VideoChatClient.jar">
       <element id="module-output" name="VideoChatClient" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../C++/Libs/opencv/build/java/opencv-481.jar" path-in-jar="/" />
+      <element id="module-output" name="VideoChatServer" />
     </root>
   </artifact>
 </component>
