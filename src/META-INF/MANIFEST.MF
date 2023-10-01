@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+com.Nathcat.VideoChatClient.Client-Class: com.Nathcat.VideoChatClient.Client
+
